@@ -1,0 +1,266 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: brown;
+    width: 100%;
+}
+.nav{
+    position: absolute;
+    background: whitesmoke;
+    width: 100%;
+    height: 12%;
+    top: 0;
+    padding: 2.5%;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    padding: 2%;
+    font-size: 36px;
+    font-weight: 700;
+    background: #4aaaa5;
+}
+.navigation{
+    position: absolute;
+    right: 15%;
+    width: 15%; 
+}
+.about{
+    position: absolute;
+    left: 0;
+    right: 67%;
+    border-right: solid;
+    padding: 1%;
+    background: tan;  
+}
+.portfolio{
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    padding: 1%;
+    background: tan;  
+}
+.contact{
+    position: absolute;
+    left: 67%;
+    right: 0;
+    padding: 1%;
+    border-left: solid;
+    background: tan;  
+}
+.card{
+    position: absolute;
+    background: darkgoldenrod;
+    width: 960px;
+    top: 17%;
+    left: 15%;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.header{
+    position: absolute;
+    background: darkgoldenrod   ;
+    left: 5%;
+    right: 5%;
+    top: 0;
+    height: 20%;
+    font-size: 32px;
+    border-bottom: solid;
+    padding-top: 4%;
+    font-weight: 700;
+}
+footer{
+    position: absolute;
+    background: gray;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    border-top: solid;
+    text-align: center;
+}
+img{
+    margin-left: 5%;
+    margin-top: 13%; 
+    float: left;
+    clear: left;
+    width: 20%;
+    margin-right: 2%;
+}
+p{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+tiles{
+    position: relative;
+
+}
+
+.containerIndex{
+    position: relative;
+    background: tan;
+    width: 1375px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerContact{
+    position: relative;
+    top: 0;
+    background: tan;
+    width: 1375px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerPort{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background: tan;
+    width: 1375px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.banner{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: beige;
+}
+
+#index{
+    padding-top: 4%;
+    padding-bottom: 56.25%;
+}
+#portfolio{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 15%;
+}
+#contact{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 15%;
+}
+#contactForm{
+    position: relative;
+    height: 100%;
+    top: 30%;
+    left: 5%;
+}
+#name{
+    position: absolute;
+    width: 90%;
+}
+#email{
+    position: absolute;
+    width: 90%;
+}
+#comments{
+    position: absolute;
+    height: 40%;
+    width: 90%;
+}
+#contactCard{
+    position: absolute;
+    height: 50%;
+}
+#submit{
+    position: absolute;
+    bottom: 35%
+}
+#image{
+    height: 200px;
+    width: 275px;
+    margin: 0;
+}
+banner{
+    position: absolute;
+    background: #4aaaa5;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+tiles{
+    position: relative;
+    height: 250px;
+    width: 325px;
+    margin: 0;
+} 
+
+ */
+*{
+    box-sizing: border-box;
+}
+.indexContainer{
+    background: beige;
+    position: relative;
+}
+.portfolioContainer{
+    background: beige;
+    position: relative;
+}
+.contactContainer{
+    background: beige;
+    position: relative;
+}
+.nav{
+    background: bisque;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 10%;
+    padding: .61%;
+}
+.logo{
+    background: blueviolet;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    bottom: 0;
+    padding: .61%;
+}
+.navigation{
+    background: lightcoral;
+    position: absolute;
+    right: 0;
+}
+.about{
+    background: lightgray;
+}
+.contact{
+    background: gray;
+}
+.portfolio{
+    background: lightgray;
+}
+.card{
+    background: lightgoldenrodyellow;
+}
+.profilePic{
+    background: black;
+}
+.copyright{
+    background: rosybrown;
+}
+.tiles{
+    background: khaki;
+}
+.banner{
+    background: firebrick;
+}
