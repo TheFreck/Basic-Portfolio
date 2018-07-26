@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>contact me</title>
+        <title>personal portfolio</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
-    <body id="contact">
-        <div class="contactContainer">
-            <section class="nav">
-                <logo class="logo">Chris Freckleton</logo>
-                <div class="navigation">
+    <body id="index">
+        <div class="container">
+            <img class="background" src="./assets/images/vintage-concrete.png" alt="concrete pattern">
+            <header class="nav">
+                <logo class="logo">ChrisFreckleton</logo>
+                <section class="navigation">
                     <a class="about" href="./index.html">about</a>
                     <a class="contact" href="./contact.html"> contact </a>
                     <a class="portfolio" href="./portfolio.html">portfolio</a>
-                </div>
-            </section>
-
-            <section id="contactCard">
-                <header>Contact</header>
+                </section>
+            </header> -->
+            <section id="cCard" class="card">
+                <h1>Contact</h1>
                 <form id="contactForm">
-                    <input id="name" type="text" name="name" value="your name"><br>
-                    <input id="email" type="email" name="email" value="your email"><br>
-                    <input id="comments" type="text" name="comments" value="type comments here"><br>
+                    Name:<br>
+                    <input id="name" type="text" name="name" placeholder="your name"><br><br>
+                    eMail:<br>
+                    <input id="email" type="email" name="email" placeholder="your email"><br><br>
+                    Talk to me:<br>
+                    <input id="comments" type="text" name="comments" placeholder="type comments here"><br>
                     <input id="submit" type="submit" value="Submit">
                 </form>
 
             </section>
-
             <footer>
-                <p class="copyright">Copyright (c)</p>
+                <p class="copyright">Copyright &copy</p>
             </footer>
-            
         </div>
     </body>
 </html>
